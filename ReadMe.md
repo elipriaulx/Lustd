@@ -9,6 +9,15 @@ You will find no claims of excellence, completeness, nor beauty here; for projec
 
 That aside, Lustd was created to simplify consistency and appearance among my own tools and projects, and intends not to over promise nor underdliver. 
 
+Release
+-------
+
+Available on Nuget: [Lustd](https://www.nuget.org/packages/Lustd/1.0.0)
+
+``` PowerShell
+Install-Package Lustd -Version 1.0.0
+```
+
 Internals
 ---------
 
