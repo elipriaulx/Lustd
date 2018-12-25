@@ -1,0 +1,9 @@
+﻿<ResourceDictionary x:Class="Lustd.Highlights.TurboHighlight"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <SolidColorBrush x:Key="HighlightDeepColour" Color="#CCEE00"/>
+    <SolidColorBrush x:Key="HighlightMidColour" Color="#DDDD00"/>
+    <SolidColorBrush x:Key="HighlightShallowColour" Color="#EECC00"/>
+
+</ResourceDictionary>

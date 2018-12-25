@@ -1,0 +1,17 @@
+﻿<ResourceDictionary x:Class="Lustd.Schemes.DarkScheme"
+                    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="pack://application:,,,/Lustd;component/Highlights/DefaultHighlight.xaml" />
+        <ResourceDictionary>
+            <SolidColorBrush x:Key="BackgroundDeepColour" Color="#222222"/>
+            <SolidColorBrush x:Key="BackgroundMidColour" Color="#333333"/>
+            <SolidColorBrush x:Key="BackgroundShallowColour" Color="#4A4A4A"/>
+            <SolidColorBrush x:Key="ForegroundDeepColour" Color="#AAAAAA"/>
+            <SolidColorBrush x:Key="ForegroundMidColour" Color="#EDEDED"/>
+            <SolidColorBrush x:Key="ForegroundShallowColour" Color="#EEEEEE"/>
+        </ResourceDictionary>
+    </ResourceDictionary.MergedDictionaries>
+
+</ResourceDictionary>
