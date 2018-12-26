@@ -10,8 +10,8 @@
     <projectUrl>https://github.com/gpriaulx/Lustd</projectUrl>
     <iconUrl>https://github.com/gpriaulx/Lustd/raw/master/Assets/Lustd-Branding.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>A 'less ugly style than default for WPF.</description>
-    <releaseNotes>Initial release.</releaseNotes>
+    <description>A 'less ugly style than default' for WPF.</description>
+    <releaseNotes>Retargetted for .Net 4.6.2.</releaseNotes>
     <copyright>Copyright 2018</copyright>
     <tags>WPF Style Lustd</tags>
   </metadata>

@@ -12,7 +12,7 @@ That aside, Lustd was created to simplify consistency and appearance among my ow
 Release
 -------
 
-Available on Nuget: [Lustd](https://www.nuget.org/packages/Lustd/1.0.0)
+[Available on Nuget!](https://www.nuget.org/packages/Lustd/1.0.0)
 
 ``` PowerShell
 Install-Package Lustd -Version 1.0.0
@@ -68,4 +68,4 @@ namespace Example.App
 }
 ```
 
-> **Note:** The `Window` style must be set if desired, it will not be set automatically. 
+> **Note:** The `Window` style must be set if desired; it will not be set automatically. 
