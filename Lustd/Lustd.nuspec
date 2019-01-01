@@ -6,13 +6,16 @@
     <title>Lustd</title>
     <authors>gpriaulx.co</authors>
     <owners>gpriaulx.co</owners>
-    <licenseUrl>https://github.com/gpriaulx/Lustd/blob/master/LICENSE</licenseUrl>
+    <license type="file">LICENSE</license>
     <projectUrl>https://github.com/gpriaulx/Lustd</projectUrl>
     <iconUrl>https://github.com/gpriaulx/Lustd/raw/master/Assets/Lustd-Branding.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A 'less ugly style than default' for WPF.</description>
-    <releaseNotes>Retargetted for .Net 4.6.2.</releaseNotes>
+    <releaseNotes>Minor style improvements.</releaseNotes>
     <copyright>Copyright 2018</copyright>
     <tags>WPF Style Lustd</tags>
   </metadata>
+  <files>
+    <file src="..\LICENSE" target="LICENSE" />
+  </files>
 </package>

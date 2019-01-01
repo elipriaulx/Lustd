@@ -43,8 +43,8 @@ Example
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="pack://application:,,,/Lustd;component/Schemes/DarkScheme.xaml" />
                 <ResourceDictionary Source="pack://application:,,,/Lustd;component/Themes/DefaultTheme.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/Lustd;component/Schemes/DarkScheme.xaml" />
                 <ResourceDictionary Source="pack://application:,,,/Lustd;component/Highlights/TurboHighlight.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
@@ -69,3 +69,38 @@ namespace Example.App
 ```
 
 > **Note:** The `Window` style must be set if desired; it will not be set automatically. 
+
+Resources
+---------
+
+### Themes
+
+
+### Schemes
+
+
+### Highlights
+
+#### CaribbeanGreenHighlight
+
+- ![#03965A](https://placehold.it/15/03965A/000000?text=+) `#03965A`
+- ![#03CD7B](https://placehold.it/15/03CD7B/000000?text=+) `#03CD7B`
+- ![#47DA9F](https://placehold.it/15/47DA9F/000000?text=+) `#47DA9F`
+
+#### DefaultHighlight
+
+- ![#3268E8](https://placehold.it/15/3268E8/000000?text=+) `#3268E8`
+- ![#3772FF](https://placehold.it/15/3772FF/000000?text=+) `#3772FF`
+- ![#91B2FF](https://placehold.it/15/91B2FF/000000?text=+) `#91B2FF`
+
+#### FuchsiaBlueHighlight
+
+- ![#624690](https://placehold.it/15/624690/000000?text=+) `#624690`
+- ![#865FC5](https://placehold.it/15/865FC5/000000?text=+) `#865FC5`
+- ![#A78AD4](https://placehold.it/15/A78AD4/000000?text=+) `#A78AD4`
+
+#### TurboHighlight
+
+- ![#CCEE00](https://placehold.it/15/CCEE00/000000?text=+) `#CCEE00`
+- ![#DDDD00](https://placehold.it/15/DDDD00/000000?text=+) `#DDDD00`
+- ![#EECC00](https://placehold.it/15/EECC00/000000?text=+) `#EECC00`

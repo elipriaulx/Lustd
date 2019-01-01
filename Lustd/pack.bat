@@ -1,0 +1,1 @@
+nuget.exe pack Lustd.csproj -Prop Configuration=Release
