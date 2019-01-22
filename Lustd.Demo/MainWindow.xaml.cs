@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using System.Collections.Generic;
+using System.Windows;
 
 namespace Lustd.Demo
 {
@@ -8,6 +9,15 @@ namespace Lustd.Demo
         {
             Style = (Style)FindResource(typeof(Window));
             InitializeComponent();
+            DataContext = this;
         }
+
+        public IEnumerable<string> ExampleData { get; } = new List<string>
+        {
+            "Example A",
+            "Example B",
+            "Example C",
+            "Example D",
+        };
     }
 }

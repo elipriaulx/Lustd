@@ -6,9 +6,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <StackPanel Margin="5">
-        <Button Content="Example Button" />
-        <TextBox Text="Example TextBox" />
-        <ComboBox />
-        <CheckBox Content="Example CheckBox" />
+        <Button Content="Example Button" Margin="5" />
+        <TextBox Text="Example TextBox" Margin="5" />
+        <ComboBox ItemsSource="{Binding ExampleData}" Margin="5" />
+        <CheckBox Content="Example CheckBox" Margin="5" />
+        <ListBox ItemsSource="{Binding ExampleData}" Margin="5" />
     </StackPanel>
 </Window>
