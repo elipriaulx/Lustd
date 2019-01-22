@@ -158,7 +158,7 @@
                     <Grid x:Name="templateRoot" SnapsToDevicePixels="true">
                         <Popup x:Name="PART_Popup" AllowsTransparency="true" IsOpen="{Binding IsDropDownOpen, Mode=TwoWay, RelativeSource={RelativeSource TemplatedParent}}" Margin="1" PopupAnimation="{DynamicResource {x:Static SystemParameters.ComboBoxPopupAnimationKey}}" Placement="Bottom" HorizontalAlignment="Stretch">
 
-                            <Border x:Name="dropDownBorder" BorderBrush="{DynamicResource BackgroundMidColour}" BorderThickness="1" Background="{DynamicResource BackgroundDeepColour}" Width="{Binding ElementName=templateRoot, Path=ActualWidth}">
+                            <Border x:Name="dropDownBorder" BorderBrush="{DynamicResource BackgroundShallowColour}" BorderThickness="1" Background="{DynamicResource BackgroundDeepColour}" Width="{Binding ElementName=templateRoot, Path=ActualWidth}">
                                 <ScrollViewer x:Name="DropDownScrollViewer">
                                     <Grid x:Name="grid" RenderOptions.ClearTypeHint="Enabled">
                                         <Canvas x:Name="canvas" HorizontalAlignment="Left" Height="0" VerticalAlignment="Top" Width="0">
@@ -201,7 +201,7 @@
     <!-- ComboBoxItem -->
     <Style TargetType="{x:Type ComboBoxItem}">
         <Setter Property="SnapsToDevicePixels" Value="True"/>
-        <Setter Property="Padding" Value="4,1"/>
+        <Setter Property="Padding" Value="4,3"/>
         <Setter Property="HorizontalContentAlignment" Value="{Binding HorizontalContentAlignment, RelativeSource={RelativeSource AncestorType={x:Type ItemsControl}}}"/>
         <Setter Property="VerticalContentAlignment" Value="{Binding VerticalContentAlignment, RelativeSource={RelativeSource AncestorType={x:Type ItemsControl}}}"/>
         <Setter Property="Background" Value="Transparent"/>
@@ -228,7 +228,7 @@
                                 <Condition Property="Selector.IsSelectionActive" Value="False"/>
                                 <Condition Property="IsSelected" Value="True"/>
                             </MultiTrigger.Conditions>
-                            <Setter Property="Background" TargetName="Bd" Value="{DynamicResource BackgroundShallowColour}"/>
+                            <Setter Property="Background" TargetName="Bd" Value="{DynamicResource BackgroundMidColour}"/>
                             <Setter Property="BorderBrush" TargetName="Bd" Value="{DynamicResource HighlightMidColour}"/>
                             <Setter Property="Foreground" Value="{DynamicResource ForegroundMidColour}"/>
                         </MultiTrigger>
@@ -237,7 +237,7 @@
                                 <Condition Property="Selector.IsSelectionActive" Value="True"/>
                                 <Condition Property="IsSelected" Value="True"/>
                             </MultiTrigger.Conditions>
-                            <Setter Property="Background" TargetName="Bd" Value="{DynamicResource BackgroundShallowColour}"/>
+                            <Setter Property="Background" TargetName="Bd" Value="{DynamicResource BackgroundMidColour}"/>
                             <Setter Property="BorderBrush" TargetName="Bd" Value="{DynamicResource HighlightShallowColour}"/>
                             <Setter Property="Foreground" Value="{DynamicResource ForegroundMidColour}"/>
                         </MultiTrigger>
@@ -297,7 +297,7 @@
     <!-- ListBoxItem -->
     <Style TargetType="{x:Type ListBoxItem}">
         <Setter Property="SnapsToDevicePixels" Value="True"/>
-        <Setter Property="Padding" Value="4,1"/>
+        <Setter Property="Padding" Value="4,3"/>
         <Setter Property="HorizontalContentAlignment" Value="{Binding HorizontalContentAlignment, RelativeSource={RelativeSource AncestorType={x:Type ItemsControl}}}"/>
         <Setter Property="VerticalContentAlignment" Value="{Binding VerticalContentAlignment, RelativeSource={RelativeSource AncestorType={x:Type ItemsControl}}}"/>
         <Setter Property="Background" Value="Transparent"/>
@@ -324,7 +324,7 @@
                                 <Condition Property="Selector.IsSelectionActive" Value="False"/>
                                 <Condition Property="IsSelected" Value="True"/>
                             </MultiTrigger.Conditions>
-                            <Setter Property="Background" TargetName="Bd" Value="{DynamicResource BackgroundShallowColour}"/>
+                            <Setter Property="Background" TargetName="Bd" Value="{DynamicResource BackgroundMidColour}"/>
                             <Setter Property="BorderBrush" TargetName="Bd" Value="{DynamicResource HighlightMidColour}"/>
                             <Setter Property="Foreground" Value="{DynamicResource ForegroundMidColour}"/>
                         </MultiTrigger>
@@ -333,7 +333,7 @@
                                 <Condition Property="Selector.IsSelectionActive" Value="True"/>
                                 <Condition Property="IsSelected" Value="True"/>
                             </MultiTrigger.Conditions>
-                            <Setter Property="Background" TargetName="Bd" Value="{DynamicResource BackgroundShallowColour}"/>
+                            <Setter Property="Background" TargetName="Bd" Value="{DynamicResource BackgroundMidColour}"/>
                             <Setter Property="BorderBrush" TargetName="Bd" Value="{DynamicResource HighlightShallowColour}"/>
                             <Setter Property="Foreground" Value="{DynamicResource ForegroundMidColour}"/>
                         </MultiTrigger>
@@ -508,13 +508,13 @@
         <Setter Property="VerticalContentAlignment" Value="Center"/>
         <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
         <Setter Property="AllowDrop" Value="true"/>
-        <Setter Property="Padding" Value="1,2"/>
+        <Setter Property="Padding" Value="3,2,3,2"/>
         <Setter Property="ScrollViewer.PanningMode" Value="VerticalFirst"/>
         <Setter Property="Stylus.IsFlicksEnabled" Value="False"/>
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type TextBox}">
-                    <Border x:Name="border" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" SnapsToDevicePixels="True">
+                    <Border x:Name="border" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" Padding="{TemplateBinding Padding}" SnapsToDevicePixels="True">
                         <ScrollViewer x:Name="PART_ContentHost" Focusable="false" HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden"/>
                     </Border>
                     <ControlTemplate.Triggers>

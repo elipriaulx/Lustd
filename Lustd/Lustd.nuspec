@@ -11,7 +11,6 @@
     <iconUrl>https://github.com/gpriaulx/Lustd/raw/master/Assets/Lustd-Branding.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A 'less ugly style than default' for WPF.</description>
-    <releaseNotes>Minor style improvements.</releaseNotes>
     <copyright>Copyright 2018</copyright>
     <tags>WPF Style Lustd</tags>
   </metadata>
