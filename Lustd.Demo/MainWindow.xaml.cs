@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using System.Windows;
 
 namespace Lustd.Demo
 {
@@ -7,7 +6,6 @@ namespace Lustd.Demo
     {
         public MainWindow()
         {
-            Style = (Style)FindResource(typeof(Window));
             InitializeComponent();
             DataContext = this;
         }

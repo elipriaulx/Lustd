@@ -45,6 +45,11 @@
     <Compile Include="..\SharedAssemblyInfo.cs">
       <Link>Properties\SharedAssemblyInfo.cs</Link>
     </Compile>
+    <Compile Include="Controls\Helpers\SetWindowPositionFlags.cs" />
+    <Compile Include="Controls\Helpers\WindowHelpers.cs" />
+    <Compile Include="Controls\Helpers\WindowMessages.cs" />
+    <Compile Include="Controls\LustdWindow.cs" />
+    <Compile Include="Controls\LustdWindowEnhanced.cs" />
     <Compile Include="Highlights\DefaultHighlight.xaml.cs">
       <DependentUpon>DefaultHighlight.xaml</DependentUpon>
     </Compile>
@@ -66,6 +71,9 @@
     </Compile>
     <Compile Include="Themes\DefaultTheme.xaml.cs">
       <DependentUpon>DefaultTheme.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Themes\Generic.xaml.cs">
+      <DependentUpon>Generic.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup />
@@ -95,6 +103,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Themes\DefaultTheme.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Themes\Generic.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

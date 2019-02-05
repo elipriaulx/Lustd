@@ -5,12 +5,12 @@
     <ResourceDictionary.MergedDictionaries>
         <ResourceDictionary Source="pack://application:,,,/Lustd;component/Highlights/DefaultHighlight.xaml" />
         <ResourceDictionary>
-            <SolidColorBrush x:Key="BackgroundDeepColour" Color="#AAAAAA"/>
-            <SolidColorBrush x:Key="BackgroundMidColour" Color="#EDEDED"/>
-            <SolidColorBrush x:Key="BackgroundShallowColour" Color="#EEEEEE"/>
-            <SolidColorBrush x:Key="ForegroundDeepColour" Color="#222222"/>
-            <SolidColorBrush x:Key="ForegroundMidColour" Color="#333333"/>
-            <SolidColorBrush x:Key="ForegroundShallowColour" Color="#4A4A4A"/>
+            <SolidColorBrush x:Key="BackgroundDeepColour" Color="#FFFFFF"/>
+            <SolidColorBrush x:Key="BackgroundMidColour" Color="#DDDDDD"/>
+            <SolidColorBrush x:Key="BackgroundShallowColour" Color="#BBBBBB"/>
+            <SolidColorBrush x:Key="ForegroundDeepColour" Color="#666666"/>
+            <SolidColorBrush x:Key="ForegroundMidColour" Color="#4A4A4A"/>
+            <SolidColorBrush x:Key="ForegroundShallowColour" Color="#333333"/>
         </ResourceDictionary>
     </ResourceDictionary.MergedDictionaries>
 

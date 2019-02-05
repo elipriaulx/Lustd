@@ -68,16 +68,78 @@ namespace Example.App
 }
 ```
 
-> **Note:** The `Window` style must be set if desired; it will not be set automatically. 
+> **Note:** The `Window` style must be set if desired; it will not be set automatically. This can be avoided by instead inheriting from `LustdWindow`.
 
 Resources
 ---------
 
+### Controls
+
+#### LustdWindow
+
+##### Usage:
+
+``` xml
+<controls:LustdWindow x:Class="Lustd.Demo.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="clr-namespace:Lustd.Controls;assembly=Lustd"
+    mc:Ignorable="d"
+    Title="MainWindow" Height="450" Width="800">
+
+    <!-- Window Content -->
+
+</controls:LustdWindow>
+```
+
+#### LustdWindowEnhanced
+
+##### Usage:
+
+``` xml
+<controls:LustdWindowEnhanced x:Class="Lustd.Demo.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="clr-namespace:Lustd.Controls;assembly=Lustd"
+    mc:Ignorable="d"
+    Title="MainWindow" Height="450" Width="800">
+
+
+    <controls:LustdWindowEnhanced.TitleContent>
+        <!-- Alt Window Title here. -->
+    </controls:LustdWindowEnhanced.TitleContent>
+
+    <controls:LustdWindowEnhanced.ActionContent>
+        <!-- Alt Titlebar Action Content here. -->
+    </controls:LustdWindowEnhanced.ActionContent>
+
+    <controls:LustdWindowEnhanced.CommandContent>
+        <!-- Alt Titlebar Action Content here, with consistent Button and ToggleButton styles. -->
+        <StackPanel Margin="10,0" Orientation="Horizontal">
+            <Button x:Name="SettingsButton" ToolTip="Settings">
+                <TextBlock FontFamily="Segoe MDL2 Assets" Text="&#xE713;" />
+            </Button>
+        </StackPanel>
+    </controls:LustdWindowEnhanced.CommandContent>
+
+    <!-- Window Content -->
+
+</controls:LustdWindowEnhanced>
+```
+
 ### Themes
 
+#### DefaultTheme
 
 ### Schemes
 
+#### DarkScheme
+
+#### LightScheme
 
 ### Highlights
 

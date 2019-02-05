@@ -7,7 +7,7 @@
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="pack://application:,,,/Lustd;component/Schemes/DarkScheme.xaml" />
                 <ResourceDictionary Source="pack://application:,,,/Lustd;component/Themes/DefaultTheme.xaml" />
-                <ResourceDictionary Source="pack://application:,,,/Lustd;component/Highlights/TurboHighlight.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/Lustd;component/Highlights/DefaultHighlight.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>
