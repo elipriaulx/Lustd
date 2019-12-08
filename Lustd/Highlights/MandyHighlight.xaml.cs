@@ -1,8 +1,8 @@
 ﻿namespace Lustd.Highlights
 {
-    public partial class DefaultHighlight
+    public partial class MandyHighlight
     {
-        public DefaultHighlight()
+        public MandyHighlight()
         {
             InitializeComponent();
         }

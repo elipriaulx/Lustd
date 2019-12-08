@@ -4,14 +4,14 @@
     <id>$id$</id>
     <version>$version$</version>
     <title>Lustd</title>
-    <authors>gpriaulx.co</authors>
-    <owners>gpriaulx.co</owners>
+    <authors>eliette.priaulx.co</authors>
+    <owners>eliette.priaulx.co</owners>
     <license type="file">LICENSE</license>
-    <projectUrl>https://github.com/gpriaulx/Lustd</projectUrl>
-    <iconUrl>https://github.com/gpriaulx/Lustd/raw/master/Assets/Lustd-Branding.png</iconUrl>
+    <projectUrl>https://github.com/elipriaulx/Lustd</projectUrl>
+    <iconUrl>https://github.com/elipriaulx/Lustd/raw/master/Assets/Lustd-Branding.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A 'less ugly style than default' for WPF.</description>
-    <copyright>Copyright 2018</copyright>
+    <copyright>Copyright 2019</copyright>
     <tags>WPF Style Lustd</tags>
   </metadata>
   <files>

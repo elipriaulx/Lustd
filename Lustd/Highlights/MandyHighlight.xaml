@@ -1,0 +1,9 @@
+﻿<ResourceDictionary x:Class="Lustd.Highlights.MandyHighlight"
+                    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <SolidColorBrush x:Key="HighlightDeepColour" Color="#BE4E4C"/>
+    <SolidColorBrush x:Key="HighlightMidColour" Color="#E85F5C"/>
+    <SolidColorBrush x:Key="HighlightShallowColour" Color="#EC7C79"/>
+
+</ResourceDictionary>

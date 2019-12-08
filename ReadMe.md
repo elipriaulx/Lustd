@@ -166,3 +166,9 @@ Resources
 - ![#CCEE00](https://placehold.it/15/CCEE00/000000?text=+) `#CCEE00`
 - ![#DDDD00](https://placehold.it/15/DDDD00/000000?text=+) `#DDDD00`
 - ![#EECC00](https://placehold.it/15/EECC00/000000?text=+) `#EECC00`
+
+#### MandyHighlight
+
+- ![#BE4E4C](https://placehold.it/15/BE4E4C/000000?text=+) `#BE4E4C`
+- ![#E85F5C](https://placehold.it/15/E85F5C/000000?text=+) `#E85F5C`
+- ![#EC7C79](https://placehold.it/15/EC7C79/000000?text=+) `#EC7C79`

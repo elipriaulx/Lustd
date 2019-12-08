@@ -50,6 +50,9 @@
     <Compile Include="Controls\Helpers\WindowMessages.cs" />
     <Compile Include="Controls\LustdWindow.cs" />
     <Compile Include="Controls\LustdWindowEnhanced.cs" />
+    <Compile Include="Highlights\MandyHighlight.xaml.cs">
+      <DependentUpon>MandyHighlight.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Highlights\DefaultHighlight.xaml.cs">
       <DependentUpon>DefaultHighlight.xaml</DependentUpon>
     </Compile>
@@ -78,6 +81,10 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Page Include="Highlights\MandyHighlight.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Highlights\DefaultHighlight.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
