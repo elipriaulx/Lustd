@@ -12,10 +12,10 @@ That aside, Lustd was created to simplify consistency and appearance among my ow
 Release
 -------
 
-[Available on Nuget!](https://www.nuget.org/packages/Lustd/1.0.0)
+[Available on Nuget!](https://www.nuget.org/packages/Lustd/)
 
 ``` PowerShell
-Install-Package Lustd -Version 1.0.0
+Install-Package Lustd
 ```
 
 Internals

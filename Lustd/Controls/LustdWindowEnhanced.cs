@@ -4,7 +4,7 @@ using Lustd.Controls.Helpers;
 
 namespace Lustd.Controls
 {
-    public abstract class LustdWindowEnhanced : Window
+    public class LustdWindowEnhanced : Window
     {
         public static readonly DependencyProperty TitleContentProperty = DependencyProperty.Register(nameof(TitleContent), typeof(FrameworkElement), typeof(LustdWindowEnhanced), new UIPropertyMetadata(null));
 
@@ -19,9 +19,9 @@ namespace Lustd.Controls
             DefaultStyleKeyProperty.OverrideMetadata(typeof(LustdWindowEnhanced), new FrameworkPropertyMetadata(typeof(LustdWindowEnhanced)));
         }
 
-        protected LustdWindowEnhanced()
+        public LustdWindowEnhanced()
         {
-            SourceInitialized += (sender, e) => WindowHelpers.OnSourceInitialized(this);
+            SourceInitialized += (sender, e) => WindowHelper.OnSourceInitialized(this);
 
             CommandBindings.Add(new CommandBinding(SystemCommands.CloseWindowCommand, (sender, e) => { SystemCommands.CloseWindow(this); }));
             CommandBindings.Add(new CommandBinding(SystemCommands.MaximizeWindowCommand, (sender, e) => { SystemCommands.MaximizeWindow(this); }, (sender, e) => { e.CanExecute = ResizeMode == ResizeMode.CanResize || ResizeMode == ResizeMode.CanResizeWithGrip; }));

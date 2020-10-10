@@ -2,9 +2,9 @@
 
 namespace Lustd.Controls
 {
-    public abstract class LustdWindow : Window
+    public class LustdWindow : Window
     {
-        protected LustdWindow()
+        public LustdWindow()
         {
             Style = (Style)FindResource(typeof(Window));
         }

@@ -641,8 +641,6 @@
 
                             <StackPanel Grid.Column="1" Orientation="Horizontal" Margin="0,1,1,0">
 
-                                <ContentControl x:Name="ActionContentArea" Content="{TemplateBinding ActionContent}" />
-
                                 <StackPanel Orientation="Horizontal">
 
                                     <StackPanel.Resources>
@@ -714,6 +712,8 @@
                                             </Setter>
                                         </Style>
                                     </StackPanel.Resources>
+
+                                    <ContentControl x:Name="ActionContentArea" Content="{TemplateBinding ActionContent}" />
 
                                     <StackPanel x:Name="ExtraButtonHost" Orientation="Horizontal">
                                         <ContentControl x:Name="CommandContentArea" Content="{TemplateBinding CommandContent}" />

@@ -45,9 +45,14 @@
     <Compile Include="..\SharedAssemblyInfo.cs">
       <Link>Properties\SharedAssemblyInfo.cs</Link>
     </Compile>
-    <Compile Include="Controls\Helpers\SetWindowPositionFlags.cs" />
-    <Compile Include="Controls\Helpers\WindowHelpers.cs" />
-    <Compile Include="Controls\Helpers\WindowMessages.cs" />
+    <Compile Include="Controls\Helpers\Components\MinMaxInfo.cs" />
+    <Compile Include="Controls\Helpers\Components\MonitorInfo.cs" />
+    <Compile Include="Controls\Helpers\Components\Point.cs" />
+    <Compile Include="Controls\Helpers\Components\Rectangle.cs" />
+    <Compile Include="Controls\Helpers\Components\SetWindowPositionFlags.cs" />
+    <Compile Include="Controls\Helpers\WindowHelper.cs" />
+    <Compile Include="Controls\Helpers\Components\WindowMessages.cs" />
+    <Compile Include="Controls\Helpers\Components\WindowPosition.cs" />
     <Compile Include="Controls\LustdWindow.cs" />
     <Compile Include="Controls\LustdWindowEnhanced.cs" />
     <Compile Include="Highlights\MandyHighlight.xaml.cs">

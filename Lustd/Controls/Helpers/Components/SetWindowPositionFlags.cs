@@ -1,4 +1,4 @@
-﻿namespace Lustd.Controls.Helpers
+﻿namespace Lustd.Controls.Helpers.Components
 {
     public static class SetWindowPositionFlags
     {

@@ -5,15 +5,26 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:controls="clr-namespace:Lustd.Controls;assembly=Lustd"
     mc:Ignorable="d"
-    Title="MainWindow" Height="450" Width="800">
+    Title="MainWindow" Height="450" Width="800" MinHeight="240" MinWidth="320">
 
     <controls:LustdWindowEnhanced.CommandContent>
         <StackPanel Margin="10,0" Orientation="Horizontal">
-            <Button x:Name="SettingsButton" ToolTip="Settings">
-                <TextBlock FontFamily="Segoe MDL2 Assets" Text="&#xE713;" />
+            <Button x:Name="MinimiseToTrayWindowButton" ToolTip="Minimise To Tray">
+                <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="10" Text="&#xE741;" />
             </Button>
+            <ToggleButton x:Name="AlwaysOnTopButton" ToolTip="Always On Top">
+                <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="10" Text="&#xE898;" />
+            </ToggleButton>
         </StackPanel>
     </controls:LustdWindowEnhanced.CommandContent>
+
+    <controls:LustdWindowEnhanced.ActionContent>
+        <StackPanel Margin="0,0" Orientation="Horizontal">
+            <Button x:Name="SettingsButton" ToolTip="Settings">
+                <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="10" Text="&#xE713;" />
+            </Button>
+        </StackPanel>
+    </controls:LustdWindowEnhanced.ActionContent>
 
     <StackPanel Margin="5">
         <Button Content="Example Button" Margin="5" />
